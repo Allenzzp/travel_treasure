@@ -1,0 +1,15 @@
+.route-option-cards-container.container {
+  justify-content: center;
+  margin: 0 2rem;
+}
+
+.route-option-cards {
+  width: 100%;
+  max-width: 800px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
