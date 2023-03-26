@@ -1,0 +1,52 @@
+/* Desktop styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  margin-left: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+.nav-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  color: #1A1A1A;
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin-bottom: 0.5rem;
+    margin-right: 0;
+  }
+}
